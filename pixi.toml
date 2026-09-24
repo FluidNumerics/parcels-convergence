@@ -1,0 +1,11 @@
+[workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python = ">=3.11"
+jupyterlab = "*"
+matplotlib = "*"
+
+[pypi-dependencies]
+parcels = { git = "https://github.com/Parcels-code/Parcels.git", rev = "fd677e0dee59b244196bd62b5b2fffc0e258f391" }
