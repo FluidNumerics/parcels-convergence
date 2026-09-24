@@ -2,3 +2,4 @@ parquet
 *.parquet
 pyrightconfig.json
 .ipynb_checkpoints
+.pixi/
